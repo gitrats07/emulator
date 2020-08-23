@@ -45,6 +45,6 @@ case bin8 of
 0:bit8 := 0;
 1:bit8 := 128;
 end;
-writeln(bin1, bin2, bin3, bin4, bin5, bin6, bin7, bin8, ' = ', bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7 + bit8);
+writeln(bin8, bin7, bin6, bin5, bin4, bin3, bin2, bin1, ' = ', bit1 + bit2 + bit3 + bit4 + bit5 + bit6 + bit7 + bit8);
 readln;
-end.
+end.    
